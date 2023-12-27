@@ -100,11 +100,11 @@ dependencies {
     compileOnly files('deps/MicdoodleCore-1.12.2-4.0.2.280-deobf.jar')
     compileOnly 'WitcheryResurrected0.5.2Hotfix4:WitcheryResurrected:1.12.2-0.5.2.4:forge-all'
 
-    api ("org.spongepowered:mixin:0.8.3") {transitive = false}
+    api ("org.spongepowered:mixin:0.8.5") {transitive = false}
     annotationProcessor('org.ow2.asm:asm-debug-all:5.2')
     annotationProcessor('com.google.guava:guava:24.1.1-jre')
     annotationProcessor('com.google.code.gson:gson:2.8.6')
-    annotationProcessor ("org.spongepowered:mixin:0.8.3") {transitive = false}
+    annotationProcessor ("org.spongepowered:mixin:0.8.5") {transitive = false}
 }
 
 def mixinConfigRefMap = 'mixins.' + project.ext.id + '.refmap.json'
